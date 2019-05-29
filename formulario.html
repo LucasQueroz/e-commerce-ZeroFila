@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulário</title>
+	<link rel="stylesheet" type="text/css" href="_css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="_css/formulario.css">
+</head>
+<body>
+
+	<div id="interface">
+		<header id="cabecalho">
+			<p id="sm">SuperMercado</p>
+			<p id="nomMerc">Zero Fila</p>
+		</header>
+
+		<section id="corpo_formulario">
+			<h2>Formulário de entrega dos produtos</h2>
+			<form id="formulario">
+				<fieldset id="cliente">
+					<legend>Informações do Cliente</legend>
+					<p><label for="lNome">Nome: </label><input type="text" name="tNome" size="40"></p>
+					<p><label for="lApel">Apelido: </label><input type="text" name="tApel" size="40"></p>
+					<p><label for="lTel">Telefone: </label><input type="text" name="tTel"></p>
+					<p><label for="lEmail">E-mail: </label><input type="text" name="tEmail" size="40"></p>
+				</fieldset>
+				<fieldset id="endereco">
+					<legend>Endereço do Cliente</legend>
+					<p><label for="lRua">Rua: </label><input type="text" name="tRua" size="40"></p>
+					<p><label for="lNum">Número: </label><input type="number" name="tNum" min="1"></p>
+					<p><label form="lRef">Ponto de referencia: </label><input type="text" name="tRef" size="40"></p>
+				</fieldset>
+			</form>
+			<button><a href="carrinho_compras.html">Voltar</a></button>
+			<button>Confirma Compra</button>
+		</section>
+	</div>
+
+</body>
+</html>
