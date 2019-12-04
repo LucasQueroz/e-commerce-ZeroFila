@@ -5,10 +5,10 @@ session_start();
 require_once '../../controller/db_connect.php';
 
 if(isset($_POST['Cadastrar'])):
-	$nome_produto = mysqli_escape_string($connect, $_POST['Nome']);
-	$descricao_produto = mysqli_escape_string($connect, $_POST['Descricao']);
-	$nome_imagem = mysqli_escape_string($connect, $_POST['Imagem']);
-	$valor_produto = mysqli_escape_string($connect, $_POST['Valor']);
+	$nome_produto = mysqli_escape_string($connect, $_POST['nome']);
+	$descricao_produto = mysqli_escape_string($connect, $_POST['descricao']);
+	$nome_imagem = mysqli_escape_string($connect, $_POST['imagem']);
+	$valor_produto = mysqli_escape_string($connect, $_POST['valor']);
 
 	$sql = "INSERT INTO produtos (descricao, nome, img_endereco, preco, subcategoria_id) VALUE ('$descricao_produto', '$nome_produto', '$nome_imagem', '$valor_produto', '6')";
 
@@ -32,3 +32,5 @@ if(isset($_POST['Cadastrar'])):
 	endif;*/
 
 endif;
+
+mysqli_close($connect);

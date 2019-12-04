@@ -1,4 +1,9 @@
-		<footer class="page-footer font-small blue pt-4">
+<link rel="stylesheet" type="text/css" href="/www/ZeroFila/view/_css/menuSubmenu.css">
+<link rel="stylesheet" type="text/css" href="/www/ZeroFila/view/_css/footerBootstrap.css">
+
+
+
+	<footer class="page-footer font-small blue pt-4">
 
   <!-- Footer Links -->
   <div class="container-fluid text-center text-md-left">
@@ -10,8 +15,8 @@
       <div class="col-md-6 mt-md-0 mt-3">
 
         <!-- Content -->
-        <h5 class="text-uppercase">Footer Content</h5>
-        <p>Here you can use rows and columns to organize your footer content.</p>
+        <h5 class="text-uppercase">Supermercado Zero Fila</h5>
+        <p>Faça suas compre de supermerca pelo site, depois entregamos em sua casa!!!</p>
 
       </div>
       <!-- Grid column -->
@@ -22,11 +27,11 @@
       <div class="col-md-3 mb-md-0 mb-3">
 
         <!-- Links -->
-        <h5 class="text-uppercase">Links</h5>
+        <h5 class="text-uppercase">Entre em contato</h5>
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Link 1</a>
+            <a href="/www/ZeroFila/view/form-validation.php">Enviar sugestões e reclamações</a>
           </li>
           <li>
             <a href="#!">Link 2</a>
@@ -81,5 +86,31 @@
 </footer>
 <!-- Footer -->
 	</div>
+
+
+  <!-- ============================================================== -->
+                <!-- footer -->
+                <!-- ============================================================== -->
+                <div class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                Copyright © 2018 Concept. All rights reserved. Dashboard by <a href="https://colorlib.com/wp/">Colorlib</a>.
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <div class="text-md-right footer-links d-none d-sm-block">
+                                    <a href="javascript: void(0);">About</a>
+                                    <a href="javascript: void(0);">Support</a>
+                                    <a href="javascript: void(0);">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- end footer -->
+                <!-- ============================================================== -->
+
+  
 </body>
 </html>

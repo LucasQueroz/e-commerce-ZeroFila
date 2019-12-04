@@ -1,14 +1,16 @@
 <?php 
 
     define("CAMINHO_IMAGEM", "_imagens/_produtos");
-    define("VIEW", "view/");
+    //define("VIEW", "view/");
 
-    define("CATEGORIA_CAMISAS", 1);
-    define("CATEGORIA_BLUSAS", 2);
-    define("CATEGORIA_ACESSORIOS", 3);
-    define("CATEGORIA_CALCADOS", 4);
-    define("CATEGORIA_CALCAS", 5);
-    define("CATEGORIA_CALSA_FEMININA", 6);
-    define("CATEGORIA_CALCADO_MASCULINO", 7);
-    define("CATEGORIA_CALCADO_FEMININO", 8);
+    define("CATEGORIA_ALIMENTOS", 1);
+    define("CATEGORIA_FRESCOS", 2);
+    define("CATEGORIA_CARNES", 3);
+    define("CATEGORIA_BEBIDAS", 4);
+    define("CATEGORIA_LIMPEZA", 5);
+    define("CATEGORIA_MATINAIS", 6);
+    define("CATEGORIA_INFANTIL", 7);
+    define("CATEGORIA_PETS", 8);
+
+    define("RAIZ_PROGETO", "/www/ZeroFila/");
 ?>

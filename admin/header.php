@@ -1,9 +1,9 @@
-<?php 
-	//session_start();
+<?php /*
+	session_start();
 
 	include_once('../controller/db_connect.php');
 	
-	//include_once('../../model/verifica_login.php');
+	include_once('../model/verifica_login.php');
 	include_once('../view/menu_multinivel.php');
 
 	//include_once('../../model/Produto_Config.php');
@@ -35,7 +35,7 @@
 		    </div>
 		    <ul class="nav navbar-nav">
 		      <li class="active"><a href="view/login_bootstrap.php">Entrar</a></li>
-		      <li><a href="model/logout.php">Sair</a></li>
+		      <li><a href="../model/logout.php">Sair</a></li>
 		      <li><a href="#">Page 2</a></li>
 		      <li><a href="#">Page 3</a></li>
 		    </ul>

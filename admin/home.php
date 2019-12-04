@@ -1,9 +1,8 @@
-<?php 
+<?php /*
 	//session_start();
 	
 	include_once 'header.php';
 	//include_once 'view/message.php'; 
-	
 ?>
 
 <section id="corpo">
@@ -28,7 +27,6 @@
 				//$email = $_SESSION['email'];
 
 				$sql_produtos = "SELECT * FROM produtos";
-				
 				$produto_result = mysqli_query($connect, $sql_produtos);
 
 				while($rows_produtos = mysqli_fetch_array($produto_result)):

@@ -31,7 +31,7 @@ function montar_menu($connect, $categoria){
 
     while($row = mysqli_fetch_array($result)){
         if($row['categorias_id'] == $categoria){
-            $menu .= '<li><a href="/www/ZeroFila/home.php?subcategorias_id_url='.$row['subcategorias_id'].'">'.$row['nome'].'</a></li>';
+            $menu .= '<li class="nav-item"><a a class="nav-link" href="/www/ZeroFila/view/home.php?subcategorias_id_url='.$row['subcategorias_id'].'">'.$row['nome'].'</a></li>';
             //$menu .= '<li><a href="home.php">'.$row['nome'].'</a></li>';
         }
     }
